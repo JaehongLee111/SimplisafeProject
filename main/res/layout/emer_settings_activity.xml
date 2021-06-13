@@ -1,0 +1,52 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/sample_menu"
+        />
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <Button
+                    android:text="@string/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/backButton"
+                    android:onClick="onBackClick"
+                    app:backgroundTint="#9B86C1"/>
+            <TextView
+                    android:text="@string/emer_settings"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/emerTextView"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <CheckBox
+                android:text="@string/in_an_emergency_situation_call_dispatchers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/checkBox"/>
+        <CheckBox
+                android:text="@string/in_an_emergency_situation_call_specified_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/checkBox2"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/editTextPhone"
+                android:hint="Phone #"
+                android:importantForAutofill="no"/>
+    </LinearLayout>
+</LinearLayout>

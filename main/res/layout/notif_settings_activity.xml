@@ -1,0 +1,57 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/sample_menu"
+        />
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <Button
+                    android:text="@string/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/backButton"
+                    android:onClick="onBackClick"
+                    app:backgroundTint="#9B86C1"/>
+            <TextView
+                    android:text="@string/notif_settings"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/emerTextView"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Switch
+                android:text="@string/notif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/switch0"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:translationY="30">
+            <Switch
+                    android:text="@string/send_notification_when_cameras_detect_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/switch1"/>
+            <Switch
+                    android:text="@string/send_notification_when_sensors_detect_activity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/switch2"/>
+            <Switch
+                    android:text="@string/send_notification_when_detectors_go_off"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/switch3"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

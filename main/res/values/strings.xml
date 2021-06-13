@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">GUI</string>
+    <string name="textview">TextView</string>
+    <string name="live_camera_feed">Live Camera Feed</string>
+    <string name="status">Status</string>
+    <string name="title_activity_navigation_menu">NavigationMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menuButton">三</string>
+    <string name="detection_history">Detection History</string>
+    <string name="device_status">Device Status</string>
+    <string name="add_device">Add Device</string>
+    <string name="off">Off</string>
+    <string name="away">Away</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="notification_settings"><![CDATA[Notification Settings >]]></string>
+    <string name="change_pin"><![CDATA[Change PIN >]]></string>
+    <string name="emergency_settings"><![CDATA[Emergency Settings >]]></string>
+    <string name="title_activity_notif_settings">NotifSettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="back">Back</string>
+    <string name="notif_settings">Notification Settings</string>
+    <string name="notif">Notifications</string>
+    <string name="send_notification_when_cameras_detect_activity">Send notification when cameras detect activity .
+    </string>
+    <string name="send_notification_when_sensors_detect_activity">Send notification when sensors detect activity
+    </string>
+    <string name="send_notification_when_detectors_go_off">Send notification when detectors go off</string>
+    <string name="title_activity_emer_settings">EmerSettingsActivity</string>
+    <string name="emer_settings">Emergency Settings</string>
+    <string name="in_an_emergency_situation_call_dispatchers">In an emergency situation call dispatchers</string>
+    <string name="in_an_emergency_situation_call_specified_phone_number">In an emergency situation, call specified phone
+        number
+    </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="contact_us">Contact us</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="fakelink_com_tos">fakelink.com/TOS</string>
+    <string name="contact_us_b"><![CDATA[Contact Us >]]></string>
+    <string name="terms_of_service_b"><![CDATA[Terms of Service >]]></string>
+</resources>
